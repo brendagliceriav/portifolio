@@ -111,7 +111,9 @@ h2 {
 .sobre {
   padding: 60px 20px;
   background-color: #fff5eb;
-  text-align: center;
+  text-align: left; /* antes estava 'center' */
+  max-width: 1000px;
+  margin: auto;
 }
 
 .sobre h2 {
@@ -122,11 +124,11 @@ h2 {
 
 .sobre p {
   font-size: 1.1em;
-  line-height: 1.6;
+  line-height: 1.8;
   color: #444;
-  max-width: 800px;
-  margin: 15px auto;
+  margin-bottom: 20px;
 }
+
 
 .projetos {
   background-color: #fff8f0;
